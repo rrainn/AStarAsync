@@ -1,0 +1,49 @@
+{
+  "name": "asyncastar",
+  "version": "1.0.0",
+  "description": "A JavaScript A* path finding library that allows for asynchronously loading graph data.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrainn/AsyncAStar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrainn/AsyncAStar/issues"
+  },
+  "keywords": [
+    "astar",
+    "a star",
+    "a*",
+    "dijkstra",
+    "path finding",
+    "graph",
+    "traversal",
+    "pathfinding",
+    "pathfinding algorithm",
+    "algorithm",
+    "async",
+    "asyncastar",
+    "asynchronous"
+  ],
+  "scripts": {
+    "prepare": "npm run build:clean && npm run build",
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
+    "build:clean": "rimraf dist",
+    "test": "jest"
+  },
+  "author": "rrainn, Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.10",
+    "jest": "^27.4.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.2"
+  }
+}

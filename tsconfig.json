@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"lib": [
+			"ES2021"
+		],
+		"target": "es2017",
+		"outDir": "dist",
+		"sourceMap": true,
+		"declaration": true,
+		"noImplicitThis": true,
+		"strict": true
+	},
+	"exclude": [
+		"**/*.test.ts"
+	],
+	"include": [
+		"./src/**/*"
+	]
+}
