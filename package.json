@@ -1,6 +1,6 @@
 {
   "name": "astarasync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript A* path finding library that allows for asynchronously loading graph data.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
