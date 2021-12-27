@@ -1,4 +1,4 @@
-# AsyncAStar
+# AStarAsync
 
 This is an npm package implementation for the [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm). It can be used to find the shortest path between two points in a graph.
 
@@ -7,13 +7,13 @@ Additionally, it accepts promises as the input, which is ideal for large graphs 
 ## Installation
 
 ```bash
-npm install asyncastar
+npm install astarasync
 ```
 
 ## Usage
 
 ```js
-const {AStar} = require("asyncastar");
+const {AStar} = require("astarasync");
 
 // The AStar class initializer accepts to parameters:
 // - `calculateLinksForNode`: A function that takes in a Node, and returns an array of links that can be taken from that node to other nodes.

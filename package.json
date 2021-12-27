@@ -1,5 +1,5 @@
 {
-  "name": "asyncastar",
+  "name": "astarasync",
   "version": "1.0.0",
   "description": "A JavaScript A* path finding library that allows for asynchronously loading graph data.",
   "main": "dist/index.js",
@@ -9,10 +9,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrainn/AsyncAStar.git"
+    "url": "git+https://github.com/rrainn/AStarAsync.git"
   },
   "bugs": {
-    "url": "https://github.com/rrainn/AsyncAStar/issues"
+    "url": "https://github.com/rrainn/AStarAsync/issues"
   },
   "keywords": [
     "astar",
@@ -26,7 +26,7 @@
     "pathfinding algorithm",
     "algorithm",
     "async",
-    "asyncastar",
+    "astarasync",
     "asynchronous"
   ],
   "scripts": {
